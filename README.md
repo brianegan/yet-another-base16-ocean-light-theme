@@ -1,9 +1,8 @@
-# Spacegray Light Syntax for Atom
+# Yet Another Ocean Light Syntax theme
 
-Port of the [Spacegray Light Theme](http://kkga.github.io/spacegray) Sublime Theme for Atom Syntax.
+My preferred font is [Source Code Pro](https://github.com/adobe-fonts/source-code-pro)
 
-![Screenshot](http://i.imgur.com/d5maNSZ.png)
+Based on the following:
 
-Best used with the [Spacegray Light Ui](https://github.com/aesarius/spacegray-light-ui) theme
-
-Grab the [Anonymous Pro Font](http://www.marksimonson.com/fonts/view/anonymous-pro)
+  - [Base 16 Ocean Light Colors](https://chriskempson.github.io/base16/#ocean)
+  - [Space Gray Light Syntax](https://github.com/aesarius/spacegray-light-syntax)
