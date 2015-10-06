@@ -1,8 +1,8 @@
 {
-  "name": "spacegray-light-syntax",
+  "name": "yet-another-base16-ocean-light-theme",
   "theme": "syntax",
-  "version": "0.1.0",
-  "description": "Port of the Spacegray Sublime Theme for Atom Syntax",
+  "version": "0.0.0",
+  "description": "My take on the base16 ocean light theme for Atom",
   "repository": "https://github.com/aesarius/spacegray-light-syntax",
   "license": "MIT",
   "engines": {

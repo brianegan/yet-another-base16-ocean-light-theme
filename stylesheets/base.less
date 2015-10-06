@@ -71,8 +71,7 @@
 
 .entity {
   &.name.type {
-    color: @light-orange;
-    text-decoration: underline;
+    color: @cyan;
   }
 
   &.other.inherited-class {
@@ -92,7 +91,7 @@
   }
 
   &.other.special-method {
-    color: @blue;
+    color: @syntax-text-color;
   }
 
   &.other.unit {
@@ -105,7 +104,7 @@
 }
 
 .constant {
-  color: @orange;
+  color: @blue;
 
   &.character.escape {
     color: @cyan;
@@ -125,7 +124,7 @@
 }
 
 .variable {
-  color: @red;
+  color: @syntax-text-color;
 
   &.interpolation {
     color: darken(@red, 10%);
@@ -133,6 +132,7 @@
 
   &.parameter.function {
     color: @syntax-text-color;
+    font-style: italic;
   }
 }
 
@@ -154,7 +154,7 @@
   }
 
   &.other.link {
-    color: @red;
+    color: @blue;
   }
 }
 
@@ -188,7 +188,7 @@
   }
 
   &.section.embedded {
-    color: darken(@red, 10%);
+    color: @brown;
   }
 
 }
@@ -222,11 +222,10 @@
 
   &.name.tag {
     color: @red;
-    //text-decoration: underline;
   }
 
   &.other.attribute-name {
-    color: @orange;
+    color: @blue;
 
     &.id {
       color: @blue;
@@ -311,3 +310,5 @@
 .editor.mini .scroll-view {
   padding-left: 1px;
 }
+
+@import 'languages/css';
