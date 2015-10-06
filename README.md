@@ -1,4 +1,4 @@
-# Yet Another Ocean Light Syntax theme
+# Yet Another Base16 Ocean Light Syntax theme
 
 My preferred font is [Source Code Pro](https://github.com/adobe-fonts/source-code-pro)
 
