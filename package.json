@@ -1,7 +1,7 @@
 {
   "name": "yet-another-base16-ocean-light-theme",
   "theme": "syntax",
-  "version": "3.2.0",
+  "version": "3.3.0",
   "description": "My take on the base16 ocean light theme for Atom",
   "repository": "https://github.com/brianegan/yet-another-base16-ocean-light-theme",
   "license": "MIT",
