@@ -49,7 +49,7 @@ atom-text-editor.is-focused .selection .region, :host(.is-focused) .selection .r
 }
 
 atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-editor.is-focused .line.cursor-line, :host(.is-focused) .line-number.cursor-line-no-selection, :host(.is-focused) .line.cursor-line {
-  background-color: rgba(176, 176, 176, 0.33);
+  background-color: @light-highlight-blue;
 }
 
 .variable.parameter {
@@ -62,8 +62,12 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
   color: #B3B3B3;
 }
 
-.punctuation.definition.string, .punctuation.definition.variable, .punctuation.definition.string, .punctuation.definition.parameters, .punctuation.definition.string, .punctuation.definition.array {
+.punctuation.definition.variable, .punctuation.definition.parameters, .punctuation.definition.array {
   color: @gray;
+}
+
+.punctuation.definition.string {
+  color: @green;
 }
 
 .none {
@@ -106,12 +110,16 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
   color: @cyan;
 }
 
+.storage.type.arrow {
+  color: @brown;
+}
+
 .string, .constant.other.symbol, .entity.other.inherited-class {
   color: @green;
 }
 
 .constant.numeric {
-  color: @orange;
+  color: @cyan;
 }
 
 .none {
@@ -130,8 +138,18 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
   color: @blue;
 }
 
+.entity.name.type {
+  color: @cyan;
+}
+
 .entity.other.attribute-name {
+  color: @purple;
+  font-style: italic;
+}
+
+.entity.other.attribute-name.css {
   color: @blue;
+  font-style: normal;
 }
 
 .entity.other.attribute-name.id, .punctuation.definition.entity {
@@ -139,7 +157,7 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 }
 
 .meta.selector {
-  color: @purple;
+  color: @gray;
 }
 
 .none {
@@ -151,7 +169,7 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 }
 
 .keyword.other.unit {
-  color: @red;
+  color: @cyan;
 }
 
 .markup.bold, .punctuation.definition.bold {
@@ -220,4 +238,14 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 .invalid.illegal {
   color: @red;
   text-decoration: underline;
+}
+
+/* `CSS / LESS
+***************************************/
+.property-value.css {
+  color: @cyan;
+}
+
+.rgb-value.css {
+  color: @cyan;
 }
